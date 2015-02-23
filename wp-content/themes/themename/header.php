@@ -9,14 +9,14 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
     <!-- Styles -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo( 'template_directory' ); ?>/library/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php bloginfo( 'template_directory' ); ?>/library/css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="<?php bloginfo( 'template_directory' ); ?>/img/favicon.png" />
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="<?php bloginfo( 'template_directory' ); ?>/library/css/bootstrap.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
